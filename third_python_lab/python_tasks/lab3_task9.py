@@ -1,0 +1,1 @@
+print(list(filter(lambda x: x % 7 == 0 and x % 5 != 0, [i for i in range(2000, 3200)])))
